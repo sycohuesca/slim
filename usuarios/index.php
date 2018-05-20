@@ -7,6 +7,8 @@ require __DIR__ . '/../vendor/autoload.php';
 $settings = require __DIR__ . '/../src/settings.php';
 
 $app = new \Slim\App($settings);
+
+// Nombre de la tabla;
 $tabla='usuarios';
 
 // Set up dependencies
